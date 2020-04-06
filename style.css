@@ -1,0 +1,146 @@
+  body
+{
+	background-color: #D0E4F5;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: -5px -5px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+	font-size: initial;
+	text-align: center;
+}
+
+#menu
+{
+	position: fixed;
+	width: 100%;
+	height: 48px;
+	float: inline-start;
+	
+}
+  li {
+	float: left;
+	border: 5px solid #e7e7e7;
+	background-color: #f3f3f3;
+	border-right: 10px solid #bbb;
+	border-radius: 20px;
+	list-style-type: none;
+  }
+  
+  li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  li :hover {
+	background-color: rgb(218, 122, 158);
+	border-radius: 20px;
+  }
+
+  li:last-child {
+	border-right: none;
+  }
+
+  .cover{
+	  background-image: url("background1.jpg");
+	  background-size: cover;
+	  background-attachment: fixed;
+	  width: 1150px;
+	  margin: auto;
+
+  }
+  .section{
+	border: 1px solid palevioletred;
+	
+  }
+  #text{
+	  background-color: lavenderblush;
+	  border: 2px solid black;
+	  width: 1150px;
+	  color: black;
+	  opacity: 0.8;
+	  margin: auto;
+  }
+	h1{
+		color: black; 
+		font-family: Impact, Charcoal, sans-serif ; 
+		text-shadow: 10px 10px 10px palevioletred; 
+		font-size: 50px;
+	}
+  h2{
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-style: bold;
+	background-color: lavenderblush;
+	width: 150px;
+	margin: auto;
+  }
+  p{
+	font-size: 25px;
+	font-family: Comic Sans MS, cursive, sans-serif;
+  }
+  img{
+	  border: 1px solid lavenderblush;
+  }
+
+  input[type=text], select, textarea {
+	width: 50%;
+	height: 10px;
+	padding: 12px; 
+	border: 2px solid palevioletred; 
+	border-radius: 10px; 
+	box-sizing: border-box; 
+	margin-top: 6px;
+	margin-bottom: 16px; 
+	resize: vertical
+  }
+  input[type=submit], input[type=reset] {
+	background-color: black;
+	color: palevioletred;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  input[type=submit]:hover {
+	background-color: white;
+  }
+  input[type=reset]:hover{
+	background-color: white;
+  }
+  input[type=text], textarea{
+	font-family: Comic Sans MS, cursive, sans-serif;
+  }
+  table, th, td {
+	border: 2px solid palevioletred;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-size: 18px;
+	color: black;
+	background-color: #f2f2f2;
+  }
+  th {
+	background-color: black;
+	color: palevioletred;
+	font-style: bold;
+  }
+
+  button{
+	padding: 5px 5px; 
+	border:1px solid black; 
+	background-color: palevioletred; 
+	font-family: Comic Sans MS, cursive, sans-serif;
+  }
+
+  form {
+	border: 1px solid palevioletred;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 60px 60px 60px 60px;
+	width: 500px;
+	margin: 10px auto;
+	overflow: auto;
+  }
